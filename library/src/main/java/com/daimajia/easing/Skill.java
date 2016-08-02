@@ -138,11 +138,12 @@ public enum  Skill {
         } catch (Exception e) {
             e.printStackTrace();
             Log.e("inter","Can not init Interpolator instance"+easingMethod.getClass().getName());
-            try {
-                return (Interpolator) easingMethod.getConstructor().newInstance();
-            }catch(Exception error){
-                return null;
-            }
+            return getIntepolator();
+//            try {
+//                return (Interpolator) easingMethod.getConstructor().newInstance();
+//            }catch(Exception error){
+//                return null;
+//            }
         }
     }
 }
