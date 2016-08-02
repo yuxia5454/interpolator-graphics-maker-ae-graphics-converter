@@ -1,3 +1,8 @@
+![这里写图片描述](http://img.blog.csdn.net/20160802180620660)
+![这里写图片描述](http://img.blog.csdn.net/20160802180638801)
+![这里写图片描述](http://img.blog.csdn.net/20160802180657223)
+
+以下为原介绍
 #Android Easing Functions
 
 This project is originally from my another project, [AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations), which is an animation collection, to help you make animation easier.
